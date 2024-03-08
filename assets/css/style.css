@@ -1,0 +1,126 @@
+:root {
+    --darkest-Green: #2F3E46;
+    --second-Darkest-Green: #354F52;
+    --midd-Green: #52796F;
+    --second-Lightest-Green: #84A98C;
+    --lightest-Green: #CAD2C5;
+}
+
+body {
+    margin: 0px;
+    background-color: var(--midd-Green);
+}
+
+.ribbon {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--darkest-Green);
+    width: 100%;
+    height: 120px;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+
+a {
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: var(--lightest-Green);
+    font-size: 1.5em;
+    margin:auto;
+    min-width:130px;
+    line-height: 1.5em;
+}
+
+a:hover {
+    color: var(--second-Lightest-Green);
+    text-shadow: var(--lightest-Green) 0 0 10px;
+}
+
+
+h1 {
+    font-size: 48px;
+    color: var(--second-Lightest-Green);
+    display: flex;
+    line-height: 1.5em;
+    align-self: center; 
+    margin-left: 1.5%;
+}
+
+h2 {
+    margin: 36px 0 0 0;
+    text-align: center;
+    font-size: 36px;
+    color: var(--darkest-Green);
+}
+
+
+header {
+    width: 100%;
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+figure {
+    display: flex;
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    margin: 20px 5% 20px 5%;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.about-me {
+    display: flex;
+    height: 400px;
+    width: 35%;
+    border: 2px solid black;
+    margin: 20px 5% 20px 5%;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    height: 70px;
+    width: 100%;
+    background-color: var(--darkest-Green);
+    align-content: center;
+    justify-content: flex-start;}
+
+h3 {
+    font-size: 32px;
+    color: var(--second-Lightest-Green);
+    display: flex;
+    line-height: 1.5em;
+    align-self: center; 
+    margin-left: 1.5%;
+}
+
+
+@media screen and (max-width: 1400px) {
+    .ribbon {
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .ribbon {
+        height: 190px;
+    }
+}
+
