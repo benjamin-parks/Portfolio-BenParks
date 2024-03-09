@@ -45,9 +45,6 @@ p {
     display: flex;
     flex-wrap: wrap; 
     align-self: center;
-    line-height: 1.2em;
-    font-size: 18px;
-    color: var(--darkest-Green);
 }
 
 a:hover {
