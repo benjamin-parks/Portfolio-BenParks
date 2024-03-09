@@ -50,11 +50,31 @@ p {
     color: var(--darkest-Green);
 }
 
+.proj {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
 a:hover {
     color: var(--second-Lightest-Green);
     text-shadow: var(--lightest-Green) 0 0 10px;
 }
+.project-title {
+    display: flex;
+    justify-content: space-evenly;    
+}
 
+.project-image {
+    display: flex;
+    width: 100%;
+    align-self: center;
+}
+
+.project-image:hover {
+    opacity: 50%;
+    border: 3px solid var(--second-Darkest-Green);
+}
 
 h1 {
     font-size: 48px;
