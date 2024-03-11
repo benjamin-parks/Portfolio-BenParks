@@ -62,7 +62,8 @@ a:hover {
 }
 .project-title {
     display: flex;
-    justify-content: space-evenly;    
+    justify-content: space-evenly;
+    font-size: 30px;    
 }
 
 
