@@ -71,7 +71,7 @@ a:hover {
     flex-wrap: wrap;
     width: 400px;
     align-self: center;
-    padding-top: 5%;
+    margin-top: 5%;
 }
 
 .project-image:hover {
