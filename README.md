@@ -12,9 +12,9 @@ No installation needed to view this website. Just to to https://benjamin-parks.g
 ## Screenshots
 
 
-![Top Image](image.png)
-![Body Image](image-1.png)
-![Footer Image](image-2.png)
+![Top Image](./assets/images/image.png)
+![Body Image](./assets/images/image-1.png)
+![Footer Image](./assets/images/image-2.png)
 
 
 
